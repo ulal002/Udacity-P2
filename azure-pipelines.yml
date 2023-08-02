@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: AgentPool
+pool: AgentPool
 
 steps:
 - script: echo Hello, world!
